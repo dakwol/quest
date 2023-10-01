@@ -16,6 +16,7 @@ import play from './play.svg'
 import replyAll from './replyAll.svg'
 import ButtonBIg from './ButtonBIg.svg'
 import ButtonBIgDefault from './ButtonBIgDefault.svg'
+import Platform from './Platform.svg'
 export default {
     Logo,
     Logoquest,
@@ -35,4 +36,5 @@ export default {
     replyAll,
     ButtonBIg,
     ButtonBIgDefault,
+    Platform,
 };

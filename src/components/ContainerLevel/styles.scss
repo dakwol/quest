@@ -1,0 +1,22 @@
+@use "../../scss/" as *;
+
+.gameContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 106rem;
+    width: 836rem;
+    height: 836rem;
+    padding: 16rem;
+    background-color: $gray-modern-800;
+    border-radius: 64rem;
+    grid-gap: 12rem;
+   
+
+    .gridItem{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

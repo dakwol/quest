@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from '../../components/Header/Header'
+import icons from '../../assets/icons/icons'
+import ContainerLevel from '../../components/ContainerLevel/ContainerLevel'
 
 const GameLevel1 = () => {
     return (
-        <div>GameLevel1</div>
+        <div className='containerPage'>
+            <ContainerLevel />
+        </div>
     )
 }
 
