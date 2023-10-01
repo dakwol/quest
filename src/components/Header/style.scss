@@ -7,11 +7,17 @@
     width: 100%;
     position: fixed;
     padding: 80rem;
+    z-index: 1;
 
     .headerButtonContainer{
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .volume{
+            width: 56rem;
+            height: 52rem;
+        }
 
         .linkReiting{
             display: flex;

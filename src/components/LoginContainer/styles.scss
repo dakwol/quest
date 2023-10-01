@@ -1,0 +1,49 @@
+@use "../../scss/" as *;
+
+.container{
+    padding-top: 240rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBg{
+    position: relative;
+    width: 984rem;
+    height: 584rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .bg{
+        position: absolute;
+        z-index: -1;
+    }
+
+    .containerCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            margin-top: 32rem;
+            margin-bottom: 16rem;
+            @include fnt(24, $font: $PressStart, $color: $white);
+        }
+        
+    }
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startButton{
+    width: 240rem;
+    height: 80rem;
+    transition: .05s ease-in-out;
+    margin-left: 8rem;
+}

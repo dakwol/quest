@@ -1,0 +1,21 @@
+<svg width="204" height="80" viewBox="0 0 204 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="16" width="4" height="56" fill="#697586"/>
+<rect x="8" y="8" width="188" height="4" fill="#697586"/>
+<rect width="196" height="64" transform="translate(4 12)" fill="#697586"/>
+<rect x="8" y="76" width="188" height="4" fill="#697586"/>
+<rect x="200" y="16" width="4" height="56" fill="#697586"/>
+<rect x="4" y="16" width="4" height="56" fill="black"/>
+<rect x="8" y="12" width="188" height="4" fill="black"/>
+<rect width="188" height="56" transform="translate(8 16)" fill="#6941C6"/>
+<rect x="8" y="68" width="4" height="4" fill="black"/>
+<rect x="192" y="68" width="4" height="4" fill="black"/>
+<rect x="8" y="72" width="188" height="4" fill="black"/>
+<rect x="196" y="16" width="4" height="56" fill="black"/>
+<rect x="8" y="4" width="4" height="56" fill="black"/>
+<rect x="12" width="180" height="4" fill="black"/>
+<rect width="180" height="56" transform="translate(12 4)" fill="#7F56D9"/>
+<path d="M42 41V38H39V35H36V26H39V23H42V20H54V23H57V26H51V23H45V26H42V35H45V38H51V35H57V38H54V41H42ZM72 29H75V32H78V35H81V41H75V35H66V41H60V26H66V32H72V29ZM81 26V29H75V26H81ZM90 35H93V38H90V41H84V26H90V35ZM105 26V41H99V32H96V29H99V26H105ZM93 32H96V35H93V32ZM108 41V26H129V41H123V29H114V41H108Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M158 25H156V29H150V31H148V37H150V35H156V39H158V37H160V35H162V33H164V31H162V29H160V27H158V25Z" fill="white"/>
+<rect x="12" y="60" width="180" height="4" fill="black"/>
+<rect x="192" y="4" width="4" height="56" fill="black"/>
+</svg>

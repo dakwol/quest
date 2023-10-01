@@ -4,20 +4,20 @@ import { Link } from 'react-router-dom'
 import Buttons from '../Button/Button'
 import './style.scss';
 import ButtonImage from '../Button/ButtonImage';
+import ButtonVolume from '../Button/Button';
 
-const Header = ({ rating }) => {
+const Header = ({ rating, logo }) => {
     return (
         <div className='headerContainer'>
-            <img src={icons.Logo} className='logo'></img>
+            <img src={logo} className='logo'></img>
 
             <div className='headerButtonContainer'>
                 {/* <Buttons
                     ico={icons.Volume}
                 /> */}
 
-                <ButtonImage
-                    imgDefault={icons.Buttonmini}
-                    imgHover={icons.ButtonminiHover}
+                <ButtonVolume
+                    className={'volume'}
                 />
                 {rating &&
                     <Link to={'/'} className='linkReiting'>

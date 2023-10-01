@@ -1,0 +1,53 @@
+@use "../../scss/" as *;
+
+.containerSlider{
+
+    .sliderText__container{
+        max-width: 720rem;
+        margin: 448rem auto 0;
+    }
+
+    .sliderTitle{
+        @include fnt(24, $font: $PressStart, $color: $white);
+        margin-bottom: 24rem;
+        line-height: 32rem;
+    }
+
+    .name{
+        @include fnt(24, $font: $PressStart, $color: #B692F6);
+    }
+    .nameZone{
+        @include fnt(24, $font: $PressStart, $color: #F04438);
+    }
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  .typing-animation {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid #000;
+    animation: typing 3s steps(40, end) forwards;
+  }
+  .active .typing-animation {
+    animation: typing 3s steps(40, end) forwards;
+}
+
+.buttonSkip{
+    position: fixed;
+    bottom: 80rem;
+    right: 80rem;
+    width: 204rem;
+    height: 80rem;
+    transition: .05s ease-in-out;
+}
+
+.buttonGoGame{
+    width: 384rem;
+    height: 80rem;
+    margin: 32rem auto 0;
+}

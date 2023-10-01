@@ -1,0 +1,8 @@
+@use "../../scss/" as *;
+
+.footerLoginPage{
+    text-align: center;
+    max-width: 741rem;
+    margin: 0 auto 0;
+    @include fnt(16, $color: $white);
+}

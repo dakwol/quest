@@ -30,4 +30,16 @@
     align-items: center;
     border: none;
     cursor: pointer;
+    background-repeat: no-repeat;
+   
+    span{
+        @include fnt(20, $font: $PressStart, $color: $white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    object {
+        pointer-events: none;
+    }
 }

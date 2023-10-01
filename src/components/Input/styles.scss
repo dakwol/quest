@@ -1,0 +1,32 @@
+@use "../../scss/" as *;
+/* styles.scss */
+.input-wrapper {
+    /* Стили для обертки */
+    margin-bottom: 10px;
+
+    p{
+        @include fnt(16, $font: $PressStart, $color: $redButton);
+    }
+  }
+  
+  .input-wrapper label {
+    /* Стили для лейбла (если нужен) */
+    display: block;
+    margin: 0 16rem;
+    @include fnt(16, $font: $PressStart, $color: $gray-modern-300);
+  }
+  
+  .custom-input {
+    /* Стили для кастомного элемента input (как изображения) */
+    background: url('../../assets/icons/Input.svg') no-repeat center center; /* Замените на путь к вашему изображению */
+    background-size: cover; /* Подстройте размер изображения по вашему желанию */
+    border: none;
+    outline: none;
+    width: 392rem; /* Установите размеры по вашему желанию */
+    height: 68rem; /* Установите размеры по вашему желанию */
+    padding: 20rem;
+    @include fnt(24, $font: $PressStart, $color: $gray-modern-700);
+  }
+  
+  /* Настройте размер и другие стили вашего кастомного элемента input по вашему желанию */
+  

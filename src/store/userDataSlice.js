@@ -5,6 +5,7 @@ const userData = {
     refresh: localStorage.getItem("refresh"),
     user_id: localStorage.getItem("user_id"),
     user: localStorage.getItem("user"),
+    name: localStorage.getItem("name"),
 }
 
 export const userDataSlice = createSlice({
