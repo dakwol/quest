@@ -1,0 +1,13 @@
+<svg width="56" height="52" viewBox="0 0 56 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="8" width="4" height="36" fill="#697586"/>
+<rect x="8" width="40" height="4" fill="#697586"/>
+<rect width="48" height="44" transform="translate(4 4)" fill="#697586"/>
+<rect x="8" y="48" width="40" height="4" fill="#697586"/>
+<rect x="52" y="8" width="4" height="36" fill="#697586"/>
+<rect x="4" y="4" width="4" height="40" fill="black"/>
+<rect x="8" width="40" height="4" fill="black"/>
+<rect width="40" height="40" transform="translate(8 4)" fill="#7F56D9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M27 14H25V16H23V18H21V20H19H17V22V26V28H19H21V30H23V32H25V34H27V14ZM23 30V28H21V26H19V22H21V20H23V18H25V30H23ZM29 22H31V26H29V22ZM37 16H35V14H29V16H35V18H37V30H35V32H29V34H35V32H37V30H39V18H37V16ZM35 20H33V18H29V20H33V28H29V30H33V28H35V20Z" fill="white"/>
+<rect x="8" y="44" width="40" height="4" fill="black"/>
+<rect x="48" y="4" width="4" height="40" fill="black"/>
+</svg>

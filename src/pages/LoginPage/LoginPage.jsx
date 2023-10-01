@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../../components/Header/Header'
 
 const LoginPage = () => {
     return (
-        <div>LoginPage</div>
+        <div className='containerPage'>
+            <Header rating={true} />
+            <div className='container'>LoginPage</div>
+        </div>
     )
 }
 

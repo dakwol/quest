@@ -1,0 +1,29 @@
+@use "../../scss/" as *;
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    padding: 80rem;
+
+    .headerButtonContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .linkReiting{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 32rem;
+
+            h1{
+                @include fnt(20, $font: $PressStart, $color: $white);
+                width: 140rem;
+                margin-left: 16rem;
+            }
+        }
+    }
+}

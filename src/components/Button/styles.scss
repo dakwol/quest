@@ -1,0 +1,33 @@
+@use "../../scss/" as *;
+.button__container {
+    background-color: $primary-600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem;
+    border-radius: 4rem;
+    border: none;
+    cursor: pointer;
+    @include fnt(16, $color: $white);
+    transition: .1s linear;
+    &.iconContainer {
+        padding: 8rem 24rem 8rem 12rem;
+    }
+    object {
+        margin-right: 10rem;
+        width: 24rem;
+        height: 24rem;
+    }
+    &:hover {
+        background-color: $blue;
+    }
+}
+
+.button__containerImg {
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}

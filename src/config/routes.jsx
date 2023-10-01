@@ -8,7 +8,7 @@ import GamePage from './gameRouting/gameRouting';
 
 const Routes = () => {
     const userData = useSelector(state => state.user_data.userData);
-    const isAuthenticated = true;
+    const isAuthenticated = userData.login;
 
     const location = useLocation();
     const history = useHistory();

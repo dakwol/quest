@@ -1,7 +1,7 @@
         @use "./scss/" as *;
         @font-face {
-            font-family: 'GolosUi';
-            src: local('Golos-UI-VF'), url("./assets/fonts/Golos-UI-VF/golos-ui_vf.woff") format('woff'), url("./assets/fonts/Golos-UI-VF/golos-ui_vf.woff2") format('woff2');
+            font-family: 'Press Start 2P';
+            src: local('Press Start 2P'), url("./assets/fonts/PressStart2PRegular.woff") format('woff');
             font-weight: normal;
             font-style: normal;
         }
@@ -102,13 +102,13 @@
         }
         
         body {
-            font-family: "GolosVF";
+            font-family: $PressStart;
             font-weight: 400;
             line-height: 1.5;
             width: 100%;
             height: 100%;
-            background-color: $white;
-            color: $txt-color;
+            background-color: $gray-modern-700;
+            color: $white;
         }
         
         #root {

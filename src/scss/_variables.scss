@@ -33,6 +33,8 @@ $media-500: #3762FF;
 $media-600: #1a40ff;
 $media-700: #1735e0;
 $media-800: #142bc0;
+$primary-600: #7F56D9;
+$gray-modern-700: #364152;
 $green-400: #3ccb7f;
 $media-blue: $media-600;
 $black-blue: $media-600;
@@ -67,13 +69,10 @@ $hd-width: 1920px;
     font-family: "GolosUi";
     src:
         url("../assets/fonts/Golos-UI-VF/golos-ui_vf.woff2") format("woff2"),
-        url("../assets/fonts/Golos-UI-VF/golos-ui_vf.woff") format("woff");
 }
 @font-face {
-    font-family: "GolosText";
-    src:
-        url("../assets/fonts/Golos-Text-VF/golos-text_vf.woff2") format("woff2"),
-        url("../assets/fonts/Golos-Text-VF/golos-text_vf.woff") format("woff");
+    font-family: 'Press Start 2P';
+    src: local('Press Start 2P'), url("../assets/fonts/PressStart2P-Regular.ttf") format('ttf');
 }
 $fontUI: "GolosUi";
-$fontText: "GolosText";
+$PressStart: "Press Start 2P";
